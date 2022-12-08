@@ -1,0 +1,60 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: :none;
+}
+
+body{
+	background-color:grey;
+font-family: fantasy;
+font-size: x-large;
+}
+.header div {margin-top: 0%;
+margin-right: 5%;
+width: 100;
+ margin-top: 2%;
+}
+
+#left{
+	float: left;
+    display: flex;
+flex-direction: row ;
+/*width: 5px;*/
+ margin-left: 5%;
+ /*margin-top: 2%;*/
+}
+.middle{text-align: center;
+	width:100% ;
+	/*margin-right: auto;
+	margin-top: auto;*/
+ }
+ .right{
+ 	float: right;
+display: flex;
+flex-direction: colomn;
+/*width: 10px;*/
+ margin-right: 5%;
+ font-display: auto;
+
+ }
+.login{
+	float: right;
+display: flex;
+flex-direction: row ;
+/*width: 5px;*/
+ margin-right: 8%;
+ justify-content: normal;
+
+}
+#ta3betni p{
+}
+
+.gameContainer{
+s
+}
+#user-login{
+display: none;
+}
