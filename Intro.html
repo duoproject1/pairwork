@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" >
+	
+	<meta name="viewport" content="width=device-width" initial-scale=1>
+	<link href="style.css" rel="stylesheet" type="text/css" >
+	<title>first </title>
+	
+	</head>
+	<body>
+       
+	<div class="header">
+    <div class="left" id="img"><img  src="image\Logo.png"></div>	
+	 <div class="left"><p><a href="Untitled-1.html" >Home</a></p></div>
+     <div class="left"><p><a href="https://www.reddit.com/r/gamingnews/">News</a></a></p> </div> 
+	 <div class ="right"  ><p><a href="#mygames"   >My games&#128151;</a></p></div>
+
+	 <select id="mygames">
+		<option>Tic tac toe</option>
+		<option>Guess my number</option>
+		<option>Solitaire</option>
+		<option>Super mario</option>
+	</select>
+
+
+	 <div class="login" ><p><a href="#user-login" onclick="showLogin()">login</a></p></div>
+	 <div class="middle" id='in' >
+	 <input id="search" type="text" placeholder="search game"></div>
+	</div>
+    
+
+<div class='gameContainer'>
+	<div class="game1"><a href="https://ml.game-game.com/170023/"><img src="image\XO.png"></a></div>
+	<div class="game3"><a href="file:///C:/Users/hp/Desktop/pairwork/Guess.html"><img src="image\G.png"></a> </div>
+    <div class="game2"><a href ="https://www.jeu-du-solitaire.com/"><img src="image\card.jpg"></a></div>
+	<!-- <div class="game4"><img src="image\3.jpg"></div> -->
+    <!-- <div class="game5"><img src="image\4.jpg"></div>  -->
+   
+
+</div>
+  
+<div class='Container'> 
+    <div class="game7"><a href="https://www.shooter-bubble.com/"><img src="image\9.jpg"></a></div>   
+    <div class="game8"><img src="image\10.jpg"></div> 
+    <div class="game9"><a href="https://www.twoplayergames.org/game/2d-car-racing"></a><img src="image\t.jpg"  ></div>
+    <!-- <div class="game6"><img src="image\1.jpg"></div> -->
+    <div class="game10"><a href="https://supermario-game.com/"><img src="image\mario.png"></a></div>
+</div>
+
+ 
+
+
+<div class="formControl">
+<form id="user-login">
+	<div id="email-box">
+		<input class="bigger" id="user-email" type="email" placeholder="enter your email here" onchange="getUserData()"></div>
+	<div id="password-box" >
+		<input class="bigger" id="user-password" type="password" placeholder="enter your password here" onchange="getUserData()"></div>
+	<button id="btn" class="buttons" type="login" onclick="check()">login</button>
+	<sign-up id="bouton" type="submit" aria-placeholder="sign up" onclick="securityCheck()" >sign-up</sign-up>
+</form>
+</div>
+<script src ="https://code.jquery.com/jquery-2.2.4.js"></script>
+
+<script src="index.js"></script>
+</body>
+
+</html>
